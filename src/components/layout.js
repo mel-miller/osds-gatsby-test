@@ -4,7 +4,6 @@ import { preToCodeBlock } from "mdx-utils"
 import Code from "./code"
 import SEO from "../components/seo"
 import Header from "../components/header"
-import "./layout.css"
 
 const components = {
   pre: preProps => {
