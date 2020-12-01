@@ -21,7 +21,7 @@ const HomeLink = styled(Link)`
 `
 
 const SiteName = styled.span`
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
 `
 
@@ -40,7 +40,7 @@ function Header() {
 
   return (
   <header style={{ background: `#f2f2f2` }}>
-    <div style={{ margin: `0 auto`, maxWidth: 1200, padding: `0.5rem` }}>
+    <div style={{ margin: `0 auto`, maxWidth: 1080, padding: `1rem 2rem` }}>
       <HomeLink to="/">
         <SiteName id="site-name">{site.siteMetadata.title}</SiteName>
       </HomeLink>

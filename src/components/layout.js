@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
   <MDXProvider components={components}>
     <SEO />
     <Header />
-    <div style={{ margin: `2rem auto 1rem`, maxWidth: 1200, padding: `0 1rem` }}>
+    <div style={{ margin: `2rem auto 1rem`, maxWidth: 1080, padding: `0 2rem` }}>
       {children}
     </div>
   </MDXProvider>

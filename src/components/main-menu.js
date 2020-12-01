@@ -10,7 +10,7 @@ const MenuLink = styled(Link)`
   color: black;
   text-decoration: none;
   font-size: 17px;
-  line-height: 1.9;
+  line-height: 2;
   font-weight: 600;
   margin-right: 20px;
 
