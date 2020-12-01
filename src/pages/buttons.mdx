@@ -1,0 +1,36 @@
+---
+title: "Buttons"
+---
+
+import Button from "../components/osds/button"
+
+<div class="osds-button-group">
+  <Button buttonText="Primary Button" />
+  <Button buttonType="secondary" buttonText="Secondary Button" />
+  <Button buttonType="outline" buttonText="Alt Primary Button" />
+  <Button buttonType="outline-secondary" buttonText="Alt Secondary Button" />
+</div>
+
+## Component Source Code
+
+```js
+import React from "react"
+
+function Button(props) {
+  var classes = (function (buttonType) {
+    return (buttonType ? `osds-button osds-button--${buttonType}` : "osds-button");
+  })(props.buttonType);
+
+  return (
+    <button className={classes}>{props.buttonText}</button>
+  )
+}
+
+export default Button
+```
+
+## Implementation
+
+```js
+<Button buttonType="secondary" buttonText="Secondary Button" />
+```
