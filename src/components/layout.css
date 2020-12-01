@@ -1,0 +1,17 @@
+.gatsby-highlight pre {
+  padding: 1rem;
+  margin: 0;
+}
+
+.prism-code {
+  font-size: 15px;
+}
+
+.component-example h1 {
+  margin-bottom: 1rem;
+}
+
+.component-example h2 {
+  font-size: 22px;
+  margin-top: 2rem;
+}
