@@ -62,6 +62,8 @@ export default function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
+      
+      <link rel="stylesheet" href="http://www.osu.edu/assets/fonts/webfonts.css" />
       <link rel="stylesheet" href="https://assets.osu.edu/osds/develop/css/osds-styles.css" />
       <script src='https://kit.fontawesome.com/e3de67004e.js' crossorigin='anonymous'></script>
     </Helmet>
