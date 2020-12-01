@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  pathPrefix: "/osds-gatsby-test",
   siteMetadata: {
     title: `OSDS Gatsby Demo`,
     description: `A sample implementation of components.`,
