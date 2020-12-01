@@ -13,18 +13,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-offline`,
     `gatsby-plugin-styled-components`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `OSDS Test`,
-        short_name: `osdstest`,
-        start_url: `/`,
-        display: `standalone`,
-        icon: `src/images/icon.png`,
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
