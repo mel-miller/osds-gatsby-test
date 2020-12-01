@@ -16,7 +16,7 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.21",
     "@mdx-js/react": "^1.6.21",
-    "gatsby": "^2.26.1",
+    "gatsby": "^2.27.5",
     "gatsby-plugin-manifest": "^2.7.0",
     "gatsby-plugin-mdx": "^1.5.0",
     "gatsby-plugin-offline": "^3.5.0",
@@ -24,8 +24,8 @@
     "gatsby-source-filesystem": "^2.6.1",
     "mdx-utils": "^0.2.0",
     "prism-react-renderer": "^1.1.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
@@ -33,6 +33,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/mel-miller/osds-gatsby-test.git"
   }
 }
