@@ -17,6 +17,7 @@ const components = {
 }
 
 const Layout = ({ children }) => (
+
   <MDXProvider components={components}>
     <SEO />
     <Header />
