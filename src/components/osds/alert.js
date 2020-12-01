@@ -1,6 +1,6 @@
 import React from "react"
 
- function Alert(props) {
+function Alert(props) {
   var alertIcon = (function(alertType) {
   switch(alertType) {
     case 'info':

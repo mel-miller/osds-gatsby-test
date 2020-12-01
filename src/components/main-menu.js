@@ -34,7 +34,7 @@ const MenuLink = styled(Link)`
 
 const MainMenu = () => (
   <Menu aria-label="Main navigation">
-    <MenuLink to="/alert-example">Alert</MenuLink>
+    <MenuLink to="/alerts">Alerts</MenuLink>
   </Menu>
 )
 
