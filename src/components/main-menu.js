@@ -7,7 +7,7 @@ const Menu = styled.nav`
 `
 
 const MenuLink = styled(Link)`
-  color: #b00;
+  color: black;
   text-decoration: none;
   font-size: 17px;
   line-height: 1.9;
@@ -15,17 +15,18 @@ const MenuLink = styled(Link)`
   margin-right: 20px;
 
   &:last-child {
-    margin-right: 0;
+    margin-right: 10px;
   }
 
   &:hover,
   &[aria-current="page"] {
-    border-bottom: 2px solid black;
+    color: #b00;
     text-decoration: none;
     padding-bottom: 2px;
   }
 
   &:focus {
+    color: #b00;
     outline: 2px solid black;
     outline-offset: 4px;
   }
