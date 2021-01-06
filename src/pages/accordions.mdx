@@ -2,7 +2,13 @@ import Accordion from "../components/osds/accordion"
 
 # Accordions
 
-<Accordion />
+export const accordionData = [
+  { id: 322, title: "Dog", content: "This is a dog." },
+  { id: 444, title: "Cat", content: "This is a cat." },
+  { id: 678, title: "Bird", content: "This is a bird." },
+]
+
+<Accordion data-allow-multiple items={accordionData} />
 
 ## Component Source Code
 
