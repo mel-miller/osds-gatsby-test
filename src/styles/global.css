@@ -3,9 +3,9 @@
 h1 {
   margin-bottom: 1rem;
 }
-h2 {
+h2.section-header {
   font-size: 22px;
-  margin: 3rem 0 0.5rem;
+  margin-top: 2rem;
 }
 .gatsby-highlight pre {
   padding: 1rem;
