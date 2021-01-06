@@ -8,6 +8,7 @@ const Home = () => (
     <p>At this time the following components have example pages:</p>
 
     <ul class="osds-list-ul">
+      <li class="osds-list-item"><Link class="osds-link" to="/accordion">Accordions</Link></li>
       <li class="osds-list-item"><Link class="osds-link" to="/alerts">Alerts</Link></li>
       <li class="osds-list-item"><Link class="osds-link" to="/buttons">Buttons</Link></li>
     </ul>
