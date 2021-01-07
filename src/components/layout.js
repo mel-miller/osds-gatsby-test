@@ -16,10 +16,10 @@ const components = {
   },
 }
 
-const Layout = ({ children }) => (
+const Layout = ({ children, pageTitle }) => (
 
   <MDXProvider components={components}>
-    <SEO />
+    <SEO title={pageTitle}/>
     <Header />
     <div style={{ margin: `2rem auto 1rem`, maxWidth: 1080, padding: `0 2rem` }}>
       {children}

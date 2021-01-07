@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 export default function ComponentExample({ data }) {
   const comp = data.mdx
   return (
-    <Layout>
+    <Layout pageTitle={comp.frontmatter.title}>
       <MDXRenderer>{comp.body}</MDXRenderer>
     </Layout>
   )
@@ -16,6 +16,9 @@ export const query = graphql`
   query($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
       body
+      frontmatter {
+        title
+      }
     }
   }
 `
